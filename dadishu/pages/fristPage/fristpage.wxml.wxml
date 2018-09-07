@@ -1,0 +1,8 @@
+<!--pages/startScene/startPage.wxml-->
+<view class='startScene'>
+  <image class='img'  src='../../assets/img/gb.jpg'></image>
+
+  <view class='startBtn'>
+    <image bindtap='goGame' src='../../assets/img/game_btn_star.png'></image>
+  </view>
+</view>

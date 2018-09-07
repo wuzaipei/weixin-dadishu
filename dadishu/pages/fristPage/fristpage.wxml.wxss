@@ -1,0 +1,41 @@
+/* pages/startScene/startPage.wxss */
+.startScene{
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+  
+}
+
+
+.img{
+  width: 750rpx;
+  height: 100%;
+}
+
+.startBtn{
+  position: absolute;
+  width:400rpx;
+  height: 200rpx;
+  bottom: 100rpx;
+  left: 50%;
+  margin-left: -200rpx;
+}
+
+.startBtn>image{
+  width: 100%;
+  height: 100%;
+  animation: btn 1s infinite alternate;
+  filter: brightness(1);
+}
+
+
+@keyframes btn{
+  0%{
+    filter: brightness(1)
+  }
+  100%{
+    filter: brightness(1.2)
+  }
+}
+

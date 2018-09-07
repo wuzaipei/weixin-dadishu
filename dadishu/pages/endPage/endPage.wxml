@@ -1,0 +1,17 @@
+<!--pages/endGame/endPage.wxml-->
+<view>
+<image class='liuliu' src='../../assets/img/game_home_bg.jpg'></image>
+
+<view class='score'>
+<image src='../../assets/img/pop_score_bg.png'></image>
+<view class='scoreText'>
+  恭喜拿下  <text>{{score}}</text> 分
+</view>
+
+</view>
+
+
+
+<button class='butliu' type='warn' bindtap='restart'>重新游戏</button>
+<button class='butliu' type='warn' bindtap='resindex'>返回首页</button>
+</view>
